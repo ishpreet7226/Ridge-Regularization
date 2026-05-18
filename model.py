@@ -9,10 +9,10 @@ def regression(lr, epochs, penalty):
     df = pd.read_csv("Fish.csv")
 
     # removing text column
-    df = df.drop(columns="Species", axis=1)
+    df = df.drop(columns="Species")
 
     # input features
-    x = df.drop(columns="Weight", axis=1).values
+    x = df.drop(columns="Weight").values
 
     # output column
     y = df["Weight"].values.reshape(-1,1)
