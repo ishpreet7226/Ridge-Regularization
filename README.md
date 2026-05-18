@@ -1,6 +1,6 @@
 # Ridge Regularization on Fish Market Dataset
 
-This project implements Ridge Regression from scratch deploys it using Streamlit.
+This project implements Ridge Regression from scratch and deploys it using Streamlit.
 
 The project uses the Fish Market dataset from Kaggle to predict fish weight using multiple numerical features.
 
@@ -12,8 +12,6 @@ The main objective of this project is to:
 
 - Understand Ridge Regularization
 - Reduce overfitting using L2 Regularization
-- Implement Gradient Descent manually
-- Deploy a Machine Learning model using Streamlit
 
 ---
 
